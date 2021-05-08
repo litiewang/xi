@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "localread-virtual-list-default": "/pages/read/localread-virtual-list-default",
+    "battery": "/components/battery",
+    "virtual-list": "/components/virtualList"
+  }
+}

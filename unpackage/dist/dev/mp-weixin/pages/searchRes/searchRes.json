@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-divider": "/uview-ui/components/u-divider/u-divider"
+  }
+}

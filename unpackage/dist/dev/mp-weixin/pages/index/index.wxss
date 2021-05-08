@@ -1,0 +1,26 @@
+
+.body {
+	overflow-y: hidden;
+}
+/*轮播图*/
+.swiper {
+	height: 300rpx;
+}
+.swiper image {
+	height: 300rpx;
+	width: 100%;
+}
+.listbook {
+	margin-bottom: 20px;
+}
+.title {
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+#loading {
+	margin: 25px auto;
+}
+#search {
+	margin-top: 25px;
+}
+

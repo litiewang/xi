@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/rank/rank",
+    "pages/mybooks/mybooks",
+    "pages/bookinfo/bookinfo",
+    "pages/searchRes/searchRes",
+    "pages/read/read",
+    "pages/read/localread",
+    "pages/searchlocal/searchlocal"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#2979ff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "爱看小说",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "精选",
+        "iconPath": "/static/imgs/index.png",
+        "selectedIconPath": "/static/imgs/index_selected.png"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行",
+        "iconPath": "/static/imgs/rank.png",
+        "selectedIconPath": "/static/imgs/rank_selected.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "书城",
+        "iconPath": "/static/imgs/category.png",
+        "selectedIconPath": "/static/imgs/category_selected.png"
+      },
+      {
+        "pagePath": "pages/mybooks/mybooks",
+        "text": "书架",
+        "iconPath": "/static/imgs/mybooks.png",
+        "selectedIconPath": "/static/imgs/mybooks_selected.png"
+      }
+    ],
+    "color": "#707070",
+    "selectedColor": "#2979ff"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {},
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {}
+}

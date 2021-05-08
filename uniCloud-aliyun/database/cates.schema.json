@@ -1,0 +1,47 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+		      "description": "存储文档 ID（用户 ID），系统自动生成"
+		    },
+		"sortid": {
+			"bsonType": "string",
+			"description": ""
+		},
+		"cate_name": {
+			"bsonType": "string",
+			"description": ""
+		},
+		"create_time": { 
+			"bsonType": "timestamp",
+			      "title": "创建时间",
+			      "description": "创建时间",
+			      "defaultValue": {
+			        "$env": "now"
+							}
+		},
+		"update_time": { 
+			"bsonType": "timestamp",
+			      "title": "修改时间",
+			      "description": "修改时间",
+			      "defaultValue": {
+			        "$env": "now"
+							}
+		},
+		"books": {
+			"bsonType": "object",
+			"description": ""
+		},
+		"page": {
+			 "bsonType": "int",
+			"description": ""
+		}
+	}
+}

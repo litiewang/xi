@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goToChapter',['$0'],['item.index']]]]]}}" class="{{['directory-listItem data-v-07d3c301',(item.index==active)?'active':'']}}" bindtap="__e">{{''+item.name+"\n\t\t\t\t\t11"+$root.g0+''}}</view>
